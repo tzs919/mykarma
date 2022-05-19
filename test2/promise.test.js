@@ -3,7 +3,7 @@ import { expect } from 'chai';
 
 describe('远程获取一本书 - 异步测试', function () {
   it('异步请求应该返回一个对象', function () {
-    return fetch('http://localhost:8080/book/1')
+    return fetch('http://localhost:8081/book/1')
       .then(function (res) {
         return res.json();
       }).then(function (json) {
