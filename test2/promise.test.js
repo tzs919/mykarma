@@ -13,7 +13,7 @@ describe('远程获取一本书 - 异步测试', function () {
           author: 'Nigel Rees',
           category: 'reference',
           price: 8.95,
-          title: 'Sayings of the Century'
+          title: 'Sayings of the Century from backend'
         });
       });
   });
